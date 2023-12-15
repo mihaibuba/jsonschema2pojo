@@ -20,7 +20,7 @@ public class SimpleLombokGenerationConfiguration implements LombokAnnotatorConfi
     private boolean annotateNoArgsConstructor = true;
 
     @Builder.Default
-    private boolean annotateRequiredArgsConstructor = true;
+    private boolean annotateRequiredArgsConstructor = false;
 
     @Builder.Default
     private boolean privateFields = true;
